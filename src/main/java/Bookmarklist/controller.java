@@ -9,12 +9,12 @@ import java.util.List;
 public class controller {
 
     @GetMapping("/")
-    public List<bookmark_entry> getAllBookmarks() {
+    public List<bookmarkEntry> getAllBookmarks() {
         return List.of(
-                new bookmark_entry("Youtube"),
-                new bookmark_entry("Facebook"),
-                new bookmark_entry("Instagram"),
-                new bookmark_entry("HTW-Berlin")
+                new bookmarkEntry("Youtube"),
+                new bookmarkEntry("Facebook"),
+                new bookmarkEntry("Instagram"),
+                new bookmarkEntry("HTW-Berlin")
         );
     }
 
